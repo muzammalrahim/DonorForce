@@ -1,0 +1,470 @@
+/* CSS Document */
+a.btn:link,a.btn:visited{
+	color:#FFF;
+	text-decoration:none;	
+}
+
+a.btn:link:hover{
+	color:#FFF;
+	text-decoration:none;	
+}
+
+
+input[type="radio"], input[type="checkbox"] {
+	
+    margin-right: 10px;
+}
+/* Projects List Page */
+div.project_container{
+	border-bottom:1px dotted #ccc;
+	padding-bottom:5px;
+	margin-bottom:10px;
+	/*width:48%;*/
+	float:left;
+	/*min-height:265px;*/
+	overflow:hidden;
+	width:100%;
+}
+
+div.image img{
+	height:100px;	width:100px; 
+}
+
+div.image {
+	margin-right:10px;
+	float:left;
+	width:104px;
+	border:1px solid #CCC;
+	height:104px;
+}
+
+div.project_details{
+	float:left;
+	height:auto;
+	/*overflow:hidden;*/
+	width:208px;
+	/*width:65%;*/
+}
+
+
+div.project_details h2,
+div.project_details h3
+{
+	border-bottom:0px;
+	margin-bottom:3px;
+	margin-top:1px;
+}
+
+div.project_details h3{
+	font-size:20px;	
+}
+#plg_pd{
+	/*width:205px;*/
+}
+div.mainlist{
+	margin-right:10px;	
+}
+
+#donation label,
+#donation-selection label{
+	display:inline-block !important;	
+}
+#payment .donaiton_plugin label {
+    display: block !important;
+}
+
+#donation input[type="radio"],
+#donation-selection input[type="radio"]{
+	margin-top:-5px;	
+} 
+table {
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    max-width: 100%;
+}
+.table {
+    margin-bottom: 20px;
+    width: 100%;
+}
+.table th, .table td {
+    border-top: 1px solid #dddddd;
+    line-height: 20px;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+}
+.table th {
+    font-weight: bold;
+}
+.table thead th {
+    vertical-align: bottom;
+}
+.table caption + thead tr:first-child th, .table caption + thead tr:first-child td, .table colgroup + thead tr:first-child th, .table colgroup + thead tr:first-child td, .table thead:first-child tr:first-child th, .table thead:first-child tr:first-child td {
+    border-top: 0 none;
+}
+.table tbody + tbody {
+    border-top: 2px solid #dddddd;
+}
+.table .table {
+    background-color: #ffffff;
+}
+.table-condensed th, .table-condensed td {
+    padding: 4px 5px;
+}
+
+.table-bordered {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-collapse: separate;
+    border-color: #ddd #ddd #ddd -moz-use-text-color;
+    border-image: none;
+    border-radius: 4px;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px 0;
+}
+
+.table-bordered th, .table-bordered td {
+    border-left: 1px solid #ddd;
+}
+.table-bordered caption + thead tr:first-child th, .table-bordered caption + tbody tr:first-child th, .table-bordered caption + tbody tr:first-child td, .table-bordered colgroup + thead tr:first-child th, .table-bordered colgroup + tbody tr:first-child th, .table-bordered colgroup + tbody tr:first-child td, .table-bordered thead:first-child tr:first-child th, .table-bordered tbody:first-child tr:first-child th, .table-bordered tbody:first-child tr:first-child td {
+    border-top: 0 none;
+}
+.table-bordered thead:first-child tr:first-child > th:first-child, .table-bordered tbody:first-child tr:first-child > td:first-child, .table-bordered tbody:first-child tr:first-child > th:first-child {
+    border-top-left-radius: 4px;
+}
+.table-bordered thead:first-child tr:first-child > th:last-child, .table-bordered tbody:first-child tr:first-child > td:last-child, .table-bordered tbody:first-child tr:first-child > th:last-child {
+    border-top-right-radius: 4px;
+}
+.table-bordered thead:last-child tr:last-child > th:first-child, .table-bordered tbody:last-child tr:last-child > td:first-child, .table-bordered tbody:last-child tr:last-child > th:first-child, .table-bordered tfoot:last-child tr:last-child > td:first-child, .table-bordered tfoot:last-child tr:last-child > th:first-child {
+    border-bottom-left-radius: 4px;
+}
+.table-bordered thead:last-child tr:last-child > th:last-child, .table-bordered tbody:last-child tr:last-child > td:last-child, .table-bordered tbody:last-child tr:last-child > th:last-child, .table-bordered tfoot:last-child tr:last-child > td:last-child, .table-bordered tfoot:last-child tr:last-child > th:last-child {
+    border-bottom-right-radius: 4px;
+}
+.table-bordered tfoot + tbody:last-child tr:last-child td:first-child {
+    border-bottom-left-radius: 0;
+}
+.table-bordered tfoot + tbody:last-child tr:last-child td:last-child {
+    border-bottom-right-radius: 0;
+}
+.table-bordered caption + thead tr:first-child th:first-child, .table-bordered caption + tbody tr:first-child td:first-child, .table-bordered colgroup + thead tr:first-child th:first-child, .table-bordered colgroup + tbody tr:first-child td:first-child {
+    border-top-left-radius: 4px;
+}
+.table-bordered caption + thead tr:first-child th:last-child, .table-bordered caption + tbody tr:first-child td:last-child, .table-bordered colgroup + thead tr:first-child th:last-child, .table-bordered colgroup + tbody tr:first-child td:last-child {
+    border-top-right-radius: 4px;
+}
+
+.checkbox {
+  min-height: 20px;
+  padding-bottom: 20px;
+}
+.h5_descrip{ margin: 18px 0px !important; font-size: 16px !important; }
+
+form .button.art-button,
+.donation_cart form input[type="submit"],
+.donation_cart form input[type="button"]{ 
+	 margin: 10px 0px !important;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: bold;
+    padding: 4px 8px; 
+}
+form.payment_option table tr td{ padding: 6px 0px; }
+
+
+#donation .recurringDO fieldset .control-group{  }
+
+
+/*  ---------------------------Progress Bar style-------------------------------------  */
+.project_container .col-md-4,
+.project_container .col-md-8,
+.project_container .col-md-6,
+.project_container .col-md-2 { margin: 10px 0px; }
+
+.project_container .image img{ margin: 0px; float:left;  }
+#plg_pd h3{ margin-bottom: 5px; margin-top: 0px; font-size: 22px; }	
+.donate_button a,.donate_button a:hover{  /*padding: 6px 12px;*/ padding:4px 8px;   }
+.more-block p{ margin-top: 0px;  }
+.progress span i{ display:block; font-size:11px; color: #8E8C8F;  }
+.amount_raized{     
+	position: absolute;
+    bottom: 100%;
+    left: 0;
+    font-size: 18px;
+    line-height: 18px;
+    color: #45879B;
+    font-weight: bold;
+	 }
+.amount_percent{     
+	position: absolute;
+    bottom: 100%;
+	color: #4A894E;
+	font-weight:bold;
+	font-size: 16px;
+    line-height: 16px;
+	   }
+.amount_goal{ 
+	position: absolute;
+    bottom: 100%; 
+	right:0;
+	font-weight:bold;
+	font-size: 18px;
+    line-height: 18px;
+	color:#524445; 
+	 }
+
+.adjust{ float:right;  }
+.project_details {
+    max-width: 27% !important;    padding-right: 5px;
+}
+.donate_button{ text-align:center;  }
+.DFproject_detail{  }
+
+
+progress {
+  display: inline-block;
+  vertical-align: baseline;
+}
+.mainlist .snapscam img{ width:100px !important; height:100px !important;}
+
+
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@-o-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+.progress {
+  position:relative;
+  overflow:visible !important;
+  height: 20px;
+  height: 12px !important;
+  margin-bottom:30px;
+  margin-top: 38px;
+  background-color: #f5f5f5;
+ /* border-radius: 5px !important;*/
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.progress-bar {
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  line-height: 12px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #337ab7;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+	border-radius: 5px 0px 0px 5px;
+}
+.progress-striped .progress-bar,
+.progress-bar-striped {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  -webkit-background-size: 40px 40px;
+          background-size: 40px 40px;
+}
+.progress.active .progress-bar,
+.progress-bar.active {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  -o-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+}
+.progress-bar-success {
+  background-color: #5cb85c;
+}
+.progress-striped .progress-bar-success {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.progress-bar-info {
+  background-color: #5bc0de;
+}
+.progress-striped .progress-bar-info {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.progress-bar-warning {
+  background-color: #f0ad4e;
+}
+.progress-striped .progress-bar-warning {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.progress-bar-danger {
+  background-color: #d9534f;
+}
+.progress-striped .progress-bar-danger {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+.col-md-4, .col-md-8, .col-md-6, .col-md-2, .clo-md-10 {
+  position: relative;
+  min-height: 1px;
+  width: 100%;
+  display: inline-block;
+}
+@media (min-width: 992px) {
+ .col-md-4, .col-md-8, .col-md-6, .col-md-2, .col-md-10{
+    float: left;
+  } 
+  .project_container .col-md-8 {
+    width: 60%;
+  }  
+  .project_container .col-md-4 {
+    width: 33% !important;
+  }
+	.project_container  .col-md-6{  width: 55% !important;     width: 50% !important; }
+	.project_container  .col-md-2{  width: 10% !important;     width: 14.66666667% !important; }
+	.project_container  .col-md-10{ width: 83.33333333% !important; }
+	
+	
+	.snapscam{ padding: 2px !important; }
+	.mainlist .snapscam img{ margin-top: 5px; width: 100%; height: 100%; }
+	.DF_Content_plug .snapscam{ margin-top:0px; }
+	.DF_Content_plug .snapscam img{ width:100%; height:100%;  max-width:100px; max-height:100px;  }
+	
+}
+@media (max-width: 991px) {   .amount_raized,.amount_goal,.amount_percent{ font-size:13px !important;  }  }
+@media (max-width:480px ) { .amount_percent{     bottom: -28px; }
+	.amount_raized,
+	.amount_goal,
+	.amount_percent{ font-size:12px !important; line-height: 12px;  }
+	.donate_button { margin-top: 35px !important; } 
+	}
+
+	
+	
+	
+/*--Regstep3 layout css--*/	
+
+		
+.regstep1_cont, .onceoff,.recurringDO, .recurringCO, form#donation .container-custom{    
+    /*background-color: #385661;*/
+    border: 1px solid #e3e3e3;
+		border-radius: 4px;
+    padding: 19px;
+	}	
+	
+form#donation button[type='submit']{ padding: 3px 10px;  }
+
+form#donation fieldset
+{
+		padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+form#donation .container-custom h2{     margin-bottom: 10px; }
+form#donation fieldset 	.control-label{ 
+		margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 16px !important; }
+		
+form#donation fieldset .control-group
+{
+			margin-bottom: 18px;
+}
+		
+form#donation fieldset .control-group label{    
+			/*margin-bottom: 5px;		
+			line-height: 20px;*/
+}
+
+form#donation fieldset .control-group .controls button{ 
+	vertical-align: top; 
+	padding: 3px 10px;
+}
+
+form#donation fieldset .control-group .controls button .icon-calendar{
+		background-image: url("../calendar.png");
+		display: inline-block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+}		
+		
+form#donation fieldset .control-group .controls select {    
+	border: 1px solid #ccc;     
+	line-height: 30px; 
+  margin-bottom: 10px;
+	border-radius: 4px;
+	min-width: 220px;
+	min-height: 30px;
+  line-height: 30px;
+	padding: 4px 6px;
+	}
+
+form#donation fieldset .control-group .controls input{     
+		min-height: 20px;
+    line-height: 20px;
+}	
+
+
+/*--Regstep1 layout css--*/
+form#regstep1 fieldset
+{
+		padding: 0;
+    margin: 0;
+    border: 0;
+}
+form#regstep1  input[type='text']{ 
+		padding: 6px 0;
+    font-size: 14px;
+		line-height:14px;
+	} 
+form#regstep1	.control-group{    
+		margin-bottom: 10px; 
+}
+form#regstep1	.control-group	label {
+    display: block;
+    margin-bottom: 5px;
+}	
+
+/*------Regstep2 layout css---------------*/
+input#isSame {
+    margin-top: 7px;
+}
+
+form#donation legend{     
+		display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 40px;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5; 
+		color: rgb(168, 195, 205);}	

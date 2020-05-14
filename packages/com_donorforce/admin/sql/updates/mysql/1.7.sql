@@ -1,0 +1,1 @@
+ALTER TABLE `#__donorforce_project` CHANGE `project_id` `project_id` INT(11) NOT NULL AUTO_INCREMENT;

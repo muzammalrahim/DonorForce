@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+
+	<fieldset name="info" addfieldpath="/administrator/components/com_donorforce/models/fields">
+
+		<field 
+			name="bequest_id" 
+			type="text" 
+			default="0" 
+			label="Bequest ID" 
+			readonly="true" 
+			class="readonly" 
+		/>
+		
+		<field 
+			name="first_name" 
+			type="text"
+			label="First Name"
+			description="First Name"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+		
+		<field 
+			name="surname" 
+			type="text"
+			label="Surname"
+			description="SurName"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+		
+		
+		
+		<field name="follow" 
+			type="list" 
+			label="Followed Up" 
+			description="" 
+			class="inputbox" 
+			size="1" 
+			default="Yes"
+		>
+			<option value="Yes">Yes</option>
+			<option value="No">No</option>
+		</field>
+		
+		<field 
+			name="notes" 
+			type="editor"
+			label="Notes"
+			description="Notes"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+		<field name="users" type="user"
+        label="Select User"
+        class="readonly"
+         />
+		
+		<field name="cms_user_id" 
+			type="hidden" 
+			default="0" 			
+			readonly="true" 
+			class="readonly" 
+		/>
+		
+	</fieldset>
+	<fieldset name="login_details">
+	
+		<field name="username" type="text"
+			class="inputbox"
+			description="User Name"
+			label="Username"
+			readonly="true"
+			size="30"
+		/>
+		
+		<field name="email" type="email"
+			class="inputbox"
+			description="Email"
+			label="Email"
+			readonly="true"
+			size="30"
+			validate="email"
+		/>
+		
+	</fieldset>
+	
+</form>

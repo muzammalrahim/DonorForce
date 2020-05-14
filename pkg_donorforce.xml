@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+ <extension type="package" version="3.2" method="upgrade">
+ <name>Donorforce Package</name>
+ <author>Donorforce Package Team</author>
+ <license>Open Source License, GNU GPL</license>
+ <creationDate>Sep 2015</creationDate>
+ <packagename>donorforce</packagename>
+ <version>1.14.15</version>
+ <url>http://www.creativetech-solutions.com/</url>
+ <packager>Donorforce Package Team</packager>
+ <packagerurl>http://www.creativetech-solutions.com/</packagerurl>
+ <description>Donorforce package to combine multiple extensions</description>
+ <scriptfile>install.php</scriptfile>
+ <update> </update>
+ <files folder="packages">
+   <file type="plugin" id="donorforceprojects" >donorforceprojects.zip</file>
+   <file type="plugin" id="paygate"  group="payment" >paygate.zip</file>
+   <file type="plugin" id="payfast"  group="payment" >payfast.zip</file>
+   <file type="component" id="com_donorforce" >com_donorforce.zip</file>	 
+ </files>
+ </extension>

@@ -1,0 +1,89 @@
+Array
+(
+    [option] => com_donorforce
+    [amp;task] => easygiving.notifyeasygiving
+    [PAYGATE_ID] => 10011072130
+    [PAY_REQUEST_ID] => 68C10F28-DE01-2282-9B7C-BF9612996932
+    [REFERENCE] => eg_MANDLA GQADA
+    [TRANSACTION_STATUS] => 1
+    [RESULT_CODE] => 990017
+    [AUTH_CODE] => DFMIN1
+    [CURRENCY] => ZAR
+    [AMOUNT] => 123400
+    [RESULT_DESC] => Auth Done
+    [TRANSACTION_ID] => 46245908
+    [RISK_INDICATOR] => AX
+    [PAY_METHOD] => CC
+    [PAY_METHOD_DETAIL] => Visa
+    [USER1] => MANDLA GQADA
+    [USER2] => arsalan7720@gmail.com
+    [USER3] => 2
+    [CHECKSUM] => 521d5b5161a361ca79276f4251bb3de1
+    [task] => notifyeasygiving
+    [Itemid] => 
+)
+-------------------------------Array
+(
+    [option] => com_donorforce
+    [amp;task] => easygiving.notifyeasygiving
+    [PAYGATE_ID] => 10011072130
+    [PAY_REQUEST_ID] => 62567286-FFA5-6967-FA8F-F74503B4DAD9
+    [REFERENCE] => eg_Mudassir Hamid
+    [TRANSACTION_STATUS] => 1
+    [RESULT_CODE] => 990017
+    [AUTH_CODE] => 9Y5OVA
+    [CURRENCY] => ZAR
+    [AMOUNT] => 11200
+    [RESULT_DESC] => Auth Done
+    [TRANSACTION_ID] => 46245960
+    [RISK_INDICATOR] => AX
+    [PAY_METHOD] => CC
+    [PAY_METHOD_DETAIL] => Visa
+    [USER1] => Mudassir Hamid
+    [USER2] => hamidraza715@gmail.com
+    [USER3] => 5
+    [CHECKSUM] => a85315ea43006f0d211868759ed776aa
+    [task] => notifyeasygiving
+    [Itemid] => 
+)
+-------------------------------Array
+(
+    [PAYGATE_ID] => 10011072130
+    [PAY_REQUEST_ID] => 862A55A5-F7C0-9A7E-BDB2-618527710A2C
+    [REFERENCE] => eg_MANDLA GQADA
+    [TRANSACTION_STATUS] => 1
+    [RESULT_CODE] => 990017
+    [AUTH_CODE] => 10BIZ1
+    [CURRENCY] => ZAR
+    [AMOUNT] => 2200
+    [RESULT_DESC] => Auth Done
+    [TRANSACTION_ID] => 46131869
+    [RISK_INDICATOR] => AX
+    [PAY_METHOD] => CC
+    [PAY_METHOD_DETAIL] => Visa
+    [USER1] => MANDLA GQADA
+    [USER2] => arsalan7720@gmail.com
+    [USER3] => 1
+    [CHECKSUM] => 706734dcef6b2a3fbd8fcd46bb3e5c12
+)
+-------------------------------Array
+(
+    [PAYGATE_ID] => 10011072130
+    [PAY_REQUEST_ID] => 862A55A5-F7C0-9A7E-BDB2-618527710A2C
+    [REFERENCE] => eg_MANDLA GQADA
+    [TRANSACTION_STATUS] => 1
+    [RESULT_CODE] => 990017
+    [AUTH_CODE] => 10BIZ1
+    [CURRENCY] => ZAR
+    [AMOUNT] => 2200
+    [RESULT_DESC] => Auth Done
+    [TRANSACTION_ID] => 46131869
+    [RISK_INDICATOR] => AX
+    [PAY_METHOD] => CC
+    [PAY_METHOD_DETAIL] => Visa
+    [USER1] => MANDLA GQADA
+    [USER2] => arsalan7720@gmail.com
+    [USER3] => 1
+    [CHECKSUM] => 706734dcef6b2a3fbd8fcd46bb3e5c12
+)
+-------------------------------

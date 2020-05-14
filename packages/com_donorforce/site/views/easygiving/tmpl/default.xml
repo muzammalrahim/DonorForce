@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Easy Giving Donation">
+		<message>
+			<![CDATA[Easy Giving Donation]]>
+		</message>
+	</layout>
+		
+	<fields name="request">
+		<fieldset name="request">
+		
+		<field name="layout" type="list" default="default" label="Payment Gateway" description="Payment Gateway" 	extension="com_donorforce">
+			<option value="default">Paygate Payment</option>
+			<option value="payfast">Payfast Payment</option>
+		</field>
+		
+			 
+		</fieldset>
+	</fields>	
+</metadata>

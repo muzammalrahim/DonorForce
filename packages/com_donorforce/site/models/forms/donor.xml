@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+
+	<fieldset name="info" addfieldpath="/components/com_donorforce/models/fields">
+
+			
+		
+		 <field name="name_title" 
+			type="list" 
+			label="Title" 
+			description="" 
+			class="chzn-select" 
+			size="1" 
+			default=""
+			required="true" 
+		>
+      <option value="">---Please Select---</option>
+			<option value="Dr">Dr</option>
+      <option value="Mr">Mr</option>
+      <option value="Mrs">Mrs</option>
+      <option value="Miss">Miss</option>
+      <option value="Ms">Ms</option>
+      <option value="Pastor">Pastor</option>
+      <option value="Prof">Prof</option>
+      <option value="Rev">Rev</option>
+    </field>
+		
+		
+		<field name="phone" 
+			type="text" 
+			default="" 
+			label="Telephone" 
+			description="Telephone"
+			size="30"
+			class="inputbox" 			
+		/>
+		
+		<field name="mobile" 
+			type="text" 
+			default="" 
+			label="Mobile Phone" 
+			description="Mobile Phone"
+			size="30"
+			class="inputbox" 
+			required="true"
+			
+		/>
+		
+		
+		<field name="org_type" 
+			type="list" 
+			label="Are you a..." 
+			description="Are you a church, business or an individual" 
+			class="inputbox" 
+			size="1"
+			default="individual"
+		>
+			<option value="church">Church</option>
+			<option value="business">Business</option>
+			<option value="individual">Individual</option>
+		</field>
+				
+	
+				
+		<field name="org_name" 
+			type="text"
+			label="Organization Name" 
+			description="Organization Name"
+			size="30"
+			class="inputbox"			
+		/>
+	
+								
+		</fieldset>
+		
+		<fieldset name="phy_address" >
+		
+		<field name="phy_address"
+			type="text"
+			label="Address"
+			description="Address"
+			size="70"
+			class="inputbox"
+			required="true"
+			default=""
+		/>
+		
+		<field name="phy_city" type="text"
+			label="City"
+			description="City"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+		
+		<field name="phy_zip" type="text"
+			label="ZIP/ Postal Code"
+			description="ZIP / Postal Code"
+			class="inputbox"
+			size="30" required="true"
+		/>
+		
+		<field name="phy_state" type="text"
+			label="State / Province"
+			description="State / Province"
+			class="inputbox"
+			size="30" required="true"
+		/>
+		
+		    <field name="phy_country" type="sql" default="10" label="Select your Country" query="SELECT country_code, country_name  FROM #__donorforce_countries" key_field="country_code" value_field="country_name" required="true">
+      <option value="">Please select your country</option>
+    </field>
+		
+		</fieldset>
+		<fieldset name="postal_address" >
+		
+		<field name="post_address"
+			type="text"
+			label="Address"
+			description="Address"
+			size="70"
+			class="inputbox"
+			required="true"
+			default=""
+		/>
+		
+		<field name="post_city" type="text"
+			label="City"
+			description="City"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+		
+		<field name="post_zip" type="text"
+			label="ZIP/ Postal Code"
+			description="ZIP / Postal Code"
+			class="inputbox"
+			size="30" required="true"
+		/>
+		
+		<field name="post_state" type="text"
+			label="State / Province"
+			description="State / Province"
+			class="inputbox"
+			size="30" required="true"
+		/>
+		
+		 <field name="post_country" type="sql" default="10" label="Select your Country" query="SELECT country_code, country_name  FROM #__donorforce_countries" key_field="country_code" value_field="country_name" required="true">
+      <option value="">Please select your country</option>
+    </field>
+	</fieldset>
+	
+	<fieldset name="recurring_info" >
+
+
+		
+		<field name="donationamount"
+			type="list"
+			label="Amount"
+			description="Donation Amount"
+			size="1"
+			class="inputbox"
+			default=""
+		>
+			<option value="">-Select-</option>
+			<option value="100.00">100.00</option>
+			<option value="200.00">200.00</option>
+			<option value="350.00">350.00</option>
+			<option value="500.00">500.00</option>
+			<option value="750.00">750.00</option>
+			
+		</field>
+		<field name="otheramount" type="text"
+			label="Other Amount: R "
+			description="Other Amount"
+			class="inputbox numeric"
+			size="30"
+		/>
+		<field 
+			name="donation_start_date" 
+			type="calendar"
+			label="Start Date" 
+			description="Start Date"
+			format="%Y-%m-%d" 
+			class="inputbox"
+			
+							 
+		/>
+		
+		<field 
+			name="donation_end_date" 
+			type="calendar"
+			label="End Date" 
+			description="End Date"
+			format="%Y-%m-%d"
+			class="inputbox"	 
+		/>			
+		
+		<field 
+			name="deduction_day" 
+			type="list"
+			label="Deduction Date" 
+			description="Deduction Date"
+			class="inputbox"			
+		>
+			<option value="1">1st</option>
+			<option value="6">6th</option>
+			<option value="10">10th</option>
+			<option value="25">25th</option>
+			<option value="30">30th</option>
+		</field>
+		
+		<field 
+			name="frequency" 
+			type="list"
+			label="Frequency" 
+			description="Frequency"
+			class="inputbox"			
+		>
+			<option value="monthly">Monthly</option>
+			<option value="6-monthly">6-Monthly</option>
+			<option value="annually">Annually</option>			
+		</field>
+
+	</fieldset>
+	
+	<fieldset name="debit_info" >
+
+				
+		<field 
+			name="bank_name" 
+			type="text"
+			label="Bank Name" 
+			description="Bank Name"
+			class="inputbox"
+			size="30"
+			required="true"			 
+		/>
+		
+		<field 
+			name="account_number" 
+			type="text"
+			label="Account Number" 
+			description="Account Number"
+			class="inputbox"
+			size="30"
+			required="true"			 
+		/>
+		
+		
+		<field 
+			name="account_name" 
+			type="text"
+			label="Account Holder Name" 
+			description="Account Holder Name"
+			class="inputbox"
+			size="30"
+			required="true"			 
+		/>
+		
+		<field 
+			name="account_type" 
+			type="list"
+			label="Account type" 
+			description="Account type"
+			class="inputbox"			
+		>
+			<option value="cheque">Cheque</option>
+			<option value="savings">Savings</option>
+			<option value="transmission">Transmission</option>
+		</field>
+		
+		<field 
+			name="branchcode" 
+			type="text"
+			label="Branch Code" 
+			description="Branch Code"
+			class="inputbox"
+			size="30"
+			required="true"			 
+		/>
+		
+		<field 
+			name="branch_name" 
+			type="text"
+			label="Branch Name" 
+			description="Branch Name"
+			class="inputbox"
+			size="30"			 
+		/>
+		
+		<!--<field 
+			name="comp_code" 
+			type="text"
+			label="Comp Code" 
+			description="Comp Code"
+			class="inputbox"
+			size="30"			 
+		/>-->
+		
+		<field 
+			name="beneficiary_reference" 
+			type="text"
+			label="Beneficiary Reference" 
+			description="Appears on donor's Bank Statement This needs to be set under Configuration 
+			and cannot be changed in this section" 
+			class="inputbox"
+			size="30"			 
+		/>
+
+	</fieldset>
+	<fieldset name="ccinfo">
+		<field 
+			name="credit_account_name" 
+			type="text"
+			label="Name on Card" 
+			description="Name on Card"
+			class="inputbox"
+			size="30"
+			required="true"			 
+		/>
+		<field 
+			name="credit_card_type" 
+			type="radio"
+			label="Visa / Mastercard" 
+			description="Visa / Mastercard"
+			class="inputbox"
+			default="visa"			
+		>
+			<option value="visa">Visa</option>
+			<option value="mastercard">Mastercard</option>			
+		</field>
+		
+		<field 
+			name="credit_card_number" 
+			type="text"
+			label="Card Number" 
+			description="Card Number"
+			class="inputbox"
+			size="30"
+			required="true"			 
+		/>
+		
+		<field 
+			name="credit_expiry_date" 
+			type="calendar"
+			label="Expiry Date" 
+			description="Expiry Date"
+			class="inputbox"
+			format="%Y-%m-%d"
+			required="true"			 
+		/>
+		
+		<field 
+			name="credit_card_cvv" 
+			type="text"
+			label="CVV Number" 
+			description="CVV Number"
+			class="inputbox"
+			size="3"
+			maxlength="3"			 
+		/>
+	</fieldset>
+	
+	
+	<fieldset name="bequest">
+		<field 
+			name="first_name" 
+			type="text"
+			label="First Name"
+			description="First Name"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+		
+		<field 
+			name="surname" 
+			type="text"
+			label="Surname"
+			description="SurName"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+		
+		<field 
+			name="notes" 
+			type="textarea"
+			label="Notes"
+			description="Notes"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+	</fieldset>
+	
+	
+	
+	
+	<fieldset name="recurringco_info" >
+
+
+		
+		<field name="co_donationamount"
+			type="list"
+			label="Amount"
+			description="Donation Amount"
+			size="1"
+			class="inputbox"
+			default=""
+		>
+			<option value="">-Select-</option>
+			<option value="100.00">100.00</option>
+			<option value="200.00">200.00</option>
+			<option value="350.00">350.00</option>
+			<option value="500.00">500.00</option>
+			<option value="750.00">750.00</option>
+			
+		</field>
+		<field name="co_otheramount" type="text"
+			label="Other Amount: R "
+			description="Other Amount"
+			class="inputbox numeric"
+			size="30"
+		/>
+		<field 
+			name="co_donation_start_date" 
+			type="calendar"
+			label="Start Date" 
+			description="Start Date"
+			format="%Y-%m-%d" 
+			class="inputbox"
+			required="true"
+							 
+		/>
+		
+		<field 
+			name="co_donation_end_date" 
+			type="calendar"
+			label="End Date" 
+			description="End Date"
+			format="%Y-%m-%d"
+			class="inputbox"	 
+		/>			
+		
+		<field 
+			name="co_deduction_day" 
+			type="list"
+			label="Deduction Date" 
+			description="Deduction Date"
+			class="inputbox"			
+		>
+			<option value="1">1st</option>
+			<option value="6">6th</option>
+			<option value="10">10th</option>
+			<option value="25">25th</option>
+			<option value="30">30th</option>
+		</field>
+		
+		<field 
+			name="co_frequency" 
+			type="list"
+			label="Frequency" 
+			description="Frequency"
+			class="inputbox"			
+		>
+			<option value="monthly">Monthly</option>
+					
+		</field>
+
+	</fieldset>
+	
+	
+</form>

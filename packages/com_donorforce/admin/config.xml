@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <fieldset addfieldpath="/administrator/components/com_donorforce/models/fields/"
+		name="main"
+		label="Configuration"
+		description="Main Configuration">
+    <field 
+			name="usecc" 
+			type="list" 
+			class="btn-group"
+			default="0" 
+			label="Recurring Donation Options" 
+			description="Use  System">
+      <option value="1">Credit Card Subscriptions</option>
+      <option value="0">Debit Subscriptions</option>
+      <option value="2">Both</option>
+    </field>
+    <field
+			name="spacer1"
+			type="spacer"
+			hr="true"
+			/>
+    <field
+			name="admin_name"
+			type="text"
+			label="Admin Name"
+			description="Donor Force Admin name, it will also be used in Mail From name"
+			default=""
+		/>
+    <field
+			name="admin_email"
+			type="text"
+			label="Admin Email"
+			description="Donor Force Admin email"
+			default=""
+		/>
+    <field
+			name="spacer2"
+			type="spacer"
+			hr="true"
+			/>
+    <!--<field
+			name="paygate_id"
+			type="text"
+			label="Paygate ID"
+			description="Paygate ID"
+			default=""
+		/>
+    <field
+			name="secret"
+			type="text"
+			label="Paygate Secret"
+			description="Paygate Secret"
+			default=""
+		/>
+    <field name="currency" type="sql" default="10" label="Select an currency" query="SELECT currency_code, currency_name  FROM #__donorforce_currencies" key_field="currency_code" value_field="currency_name" required="true">
+      <option value="">Please select your currency</option>
+    </field>-->
+	
+	 <field
+			name="terms_articleid"
+			type="text"
+			label="Terms and Conditions Article ID"
+			description="Terms and Conditions Article ID"
+			default=""
+		/>
+		
+	 <field
+			name="testdonation_id"
+			type="text"
+			label="Donation ID For Test Emails"
+			description="Donation ID For Test Emails"
+			default=""
+		/>
+		
+		<field 
+			name="enable_bootstrap" 
+			type="radio" 
+			class="btn-group"
+			default="0" 
+			label="Enable Bootstrap" 
+			description="Enable Bootstrap files Inclusion">
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+		</field>
+		
+		<field 
+			name="show_amount_raised" 
+			type="radio" 
+			class="btn-group"
+			default="1" 
+			label="Show Amount Raised" 
+			description="Show Amount Raised of Indivisual Projects">
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+		</field> 
+		
+		
+		<field 
+			name="show_snapscan_projects" 
+			type="radio" 
+			class="btn-group"
+			default="1" 
+			label="Snapscan Image on Projects" 
+			description="Show Snapscan Image on Each Project">
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+		</field> 
+		
+		
+		
+		<field 
+			name="show_project_title" 
+			type="radio" 
+			class="btn-group"
+			default="1" 
+			label="Show Project Title" 
+			description="Show Project Title">
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+		</field> 
+		
+		<field 
+			name="show_start_end_date" 
+			type="radio" 
+			class="btn-group"
+			default="1" 
+			label="Show Start and End Dates" 
+			description="Show Project Start and End Dates">
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+		</field>
+		
+		<field 
+			name="show_project_image" 
+			type="radio" 
+			class="btn-group"
+			default="1" 
+			label="Show Project Image" 
+			description="Show Project Image">
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+		</field>  
+		
+		 <field name="acy_mailing_bridge" 
+		 				type="acymailingselect" 
+						label="Acy Mailing Select"
+						description="Select Acy Mailing List. The new Donor Force member created will be added to this group"	
+						default="0"					 
+		/>
+		
+	<field 
+			name="send_thankyou" 
+			type="radio" 
+			class="btn-group"
+			default="1" 
+			label="Send Thank You Emails" 
+			description="Send Thank You Emails">
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+		</field>  
+		 
+		<field 
+			name="enable_tax_pdf" 
+			type="radio" 
+			class="btn-group"
+			default="0" 
+			label="Enable Tax Pdf" 
+			description="Enable Tax Pdf">
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+		</field>	
+		
+		<field 
+			name="enable_import_duplicate" 
+			type="radio" 
+			class="btn-group"
+			default="1" 
+			label="Enable Duplicate Check on Import Script" 
+			description="Enable Duplicate Check on Import Script">
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+		</field>
+		 <field
+			name="recaptcha_site_key"
+			type="text"
+			label="reCAPTCHA v2 Site key"
+			description="reCAPTCHA v2 Site key"
+			default=""
+		/>
+		 
+  </fieldset>
+	
+  <fieldset
+	  name="permissions"
+	  label="JCONFIG_PERMISSIONS_LABEL"
+	  description="JCONFIG_PERMISSIONS_DESC">
+	  <field
+	   name="rules"
+	   type="rules"
+	   label="JCONFIG_PERMISSIONS_LABEL"
+	   class="inputbox"
+	   validate="rules"
+	   filter="rules"
+	   component="com_donorforce"
+	   section="component"
+  		/>
+   </fieldset>
+   
+   <!--   edit  Payment Configuration -->
+  <fieldset name="payment_settings" label="Payment Setting" description="" addfieldpath="/administrator/components/com_donorforce/elements" >
+		<!--<field name="addcurrency" type="text" default="USD" label="Currency" description="TJCPG_ADDCURRENCY_DESC" />	-->
+		<field name="addcurrency" type="sql" default="ZAR" label="Select an currency" query="SELECT currency_code, currency_name  FROM #__donorforce_currencies" key_field="currency_code" value_field="currency_name" required="true">
+      <option value="">Please select your currency</option>
+    </field>
+		<field name="gateways" type="gatewayplg" default="paygate" multiple="multiple" label="SELECT_GATEWAY" description="SELECT_GATEWAY_DES" />	
+		
+	</fieldset>
+  <!--   edit Payment Configuration End-->
+	
+	
+	<fieldset name="easygiving_setting" label="Easy Giving" description="" >
+		<field name="easygiving_title" type="text" label="Title Heading" description="This Heading will be displayed on the Easygiving layout" />
+		<field name="easygiving_description" type="textarea" label="Description" description="This Description will appear on the Easy Giving Layour" rows="10" cols="5" filter="raw"/>
+		
+	</fieldset>
+  
+
+
+
+	<fieldset name="donation_messages_setting" label="Donation Messages" description="" >
+		
+		<field type="spacer" name="myspacer1" label="&lt;h4&gt; Once off Donation &lt;/h4&gt;"    />
+		<field 
+			name="onceoff_status" 
+			type="radio" 
+			class="btn-group"
+			default="0" 
+			label="Status" 
+			description="Once Off Donation Status">
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+		</field>  
+		<field name="onceoff_message" type="editor" label="Message" description="Once Off Donation Message" height="100px" filter="safehtml" />
+
+
+	<field type="spacer" name="myspacer2" label="&lt;h4&gt; Recurring Donation (Recurring Debit Subscription)   &lt;/h4&gt;"    />
+	 
+		<field 
+			name="recurring_debit_subscription_status" 
+			type="radio" 
+			class="btn-group"
+			default="0" 
+			label="Status" 
+			description=" Recurring Donation (Recurring Debit Subscription) Message Status">
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+		</field>  
+		<field name="recurring_donation_debit_order_message" type="editor" label="Message" description="Recurring Donation (Recurring Debit Subscription) Message" height="100px" filter="safehtml" />
+
+
+       <field type="spacer" name="myspacer3" label="&lt;h4&gt; Recurring Donation (Credit Card Subscription) &lt;/h4&gt;"    />
+ 
+		<field 
+			name="credit_card_subscription_status" 
+			type="radio" 
+			class="btn-group"
+			default="0" 
+			label="Status" 
+			description="Recurring Donation (Credit Card Subscription) Status">
+				<option value="1">JYES</option>
+				<option value="0">JNO</option>
+		</field>  
+		<field name="recurring_donation_credit_order_message" type="editor" label="Message" description="Recurring Donation (Credit Card Subscription)" height="100px" filter="safehtml" />
+
+
+ 
+
+	</fieldset>
+
+	<!-- This fieldset is for the admin to get the additional information tab data -->
+	<fieldset name="entries" label="Additional Information" addfieldpath="/administrator/components/com_donorforce/models/fields">
+		<field name="entries"
+		 	label="Custom fields"
+			type="extrafield"
+			description="Additional Info" 
+			class="inputbox"
+			size="30"
+		/>
+
+		 
+
+	</fieldset>
+
+	<!-- This fieldset is for the admin to get the additional information tab data -->
+	<fieldset name="membershipType" label="Custom Lists" addfieldpath="/administrator/components/com_donorforce/models/fields">
+		<field name="membershipType"
+		 	label="Membership Type"
+			type="extrafieldlist"
+			description="Membership Type Info" 
+			class="inputbox"
+			size="30"
+		/>
+
+		 
+
+	</fieldset>
+</config>

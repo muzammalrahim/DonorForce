@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="addgift" addfieldpath="/administrator/components/com_donorforce/models/fields">
+		<field 
+			name="donor_id" 
+			type="sql" 
+			default=""
+			required="true"  
+			label="Select Donor"
+			query="SELECT
+					d.donor_id as value,
+					u.name as title
+				FROM
+					#__donorforce_donor as d
+				INNER JOIN #__users as u ON d.cms_user_id = u.id" 
+			key_field="value" 
+			value_field="title"  
+			>
+			<option></option>
+		 </field>
+		
+		<field 
+			name="project_id" 
+			type="sql" 
+			default=""
+			required="true"  
+			label="Select Project"
+			query="SELECT
+					p.project_id as value,
+					p.name as title
+				FROM
+					#__donorforce_project as p" 
+			key_field="value" 
+			value_field="title" 
+			>
+			<option></option>
+		</field>
+		
+		<field name="date" 
+			type="calendar"
+			label="Date" 
+			description="Date"
+			format="%Y-%m-%d" 
+			class="inputbox"
+			required="true"				 
+		/>
+		
+		<field name="reference"
+			type="text"
+			label="Reference"
+			description="Reference"
+		/>
+		
+		<field name="status" 
+			type="list" 
+			label="Followed Up" 
+			description="" 
+			class="inputbox" 
+			size="1" 
+			default="successful"
+		  >
+			<option value="successful">Successful</option>
+			<option value="pending">Pending</option>
+		</field>
+	
+		<field 
+			name="desc" 
+			type="editor" 
+			buttons="false"
+			hide="pagebreak,readmore" 
+			class="inputbox" 
+			label="Description" 
+			filter="safehtml" 
+			description="Gift Description"			
+		/>
+		
+	</fieldset>
+</form>

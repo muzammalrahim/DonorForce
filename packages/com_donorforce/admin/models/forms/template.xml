@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+	<fieldset name="details">
+		<field name="id" type="text" default="0"
+			readonly="true" class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL" 	description ="JGLOBAL_FIELD_ID_DESC" />
+
+		<field name="name" type="text" class="inputbox"
+			size="40" label="Name"
+			description="Name" required="true" />
+            
+		<field name="published" type="list"
+			label="published" description="published"
+			class="inputbox" size="1" default="1" >
+			<option value="1">JPUBLISHED</option>
+			<option value="0">JUNPUBLISHED</option>		
+		</field>
+        
+    
+        
+		<field name="text" type="textarea" class="inputbox"
+			rows="3" cols="30" label="Template Text"
+			description="Description" />
+	</fieldset>
+	<fieldset name="template">
+	<field name="id" type="text" default="0"
+			readonly="true" class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL" 	description ="JGLOBAL_FIELD_ID_DESC" />
+	
+	<field name="head_logo" type="media" label="Upload logo" directory="donorforce" />
+	<field name="head_addresses" height="100px" type="editor" label="NPO / PBO Numbers" />
+	<field name="upper_body_sign" type="editor" height="100px" label="Upper body sign" />
+	
+	<field name="thankyou_body" type="editor" height="100px" label="Body" />
+	
+	<field name="bottom_body_txt" type="editor" height="100px" label="Body bottom Text" />
+	<field name="footer_slogan" type="editor" height="100px"  label="Footer Slogan" />
+	<field name="footer_addresses" type="editor" height="100px"  label="Footer addresses" />		
+	<field name="custom_style" type="textarea"  rows="30"  label="Custom Style" />
+	</fieldset>
+	
+	
+	<fieldset name="receipt">
+		
+		<field name="id" type="text" default="0"
+			readonly="true" class="readonly"
+			label="JGLOBAL_FIELD_ID_LABEL" 	description ="JGLOBAL_FIELD_ID_DESC" />
+			
+		<field name="org_name" type="text" label="Organization Name" />
+		<field name="head_logo2" type="media" label="Upload logo" directory="donorforce" />
+		<field name="postal_address" type="editor" height="100px"  label="Postal Address" />
+		<field name="physical_address" type="editor" height="100px"  label="Physical Address" />
+		<field name="pobox" type="editor" height="100px"  label="NPO / PBO Number" />
+		<field name="receipt_text" type="editor" height="100px"  label="Donations Receipt Text" />
+		
+		<field name="receipt_body" type="editor" height="100px"  label="Receipt Body" />
+		<field name="statement_intent" type="editor" height="100px"  label="Statement of Intent" />
+		<field name="chairman_title" type="text" height="100px"  label="Designation Title" />
+		<field name="chairman_image" type="media" height="100px"  label="Chairman / Secretary Image" />
+		<field name="footer1" type="textarea" height="100px"  label="Footer 1" />
+		<field name="footer2" type="textarea" height="100px"  label="Footer 2" />
+		<field name="footer3" type="textarea" height="100px"  label="Footer 3" />
+		<field name="footer4" type="textarea" height="100px"  label="Footer 4" />
+		<field name="footer5" type="textarea" height="100px"  label="Footer 5" />
+		<field name="footer6" type="textarea" height="100px"  label="Footer 6" />
+		<field name="custom_style2" type="textarea"  rows="20"  label="Custom Style" />
+		
+	</fieldset>
+	
+	
+</form>

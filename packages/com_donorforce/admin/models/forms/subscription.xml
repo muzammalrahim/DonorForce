@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+
+	<fieldset name="subscription" addfieldpath="/administrator/components/com_donorforce/models/fields">
+
+		<field 
+			name="donor_id" 
+			type="sql" 
+			default=""
+			required="true"  
+			label="Select Donor"
+			query="SELECT
+					u.id as value,
+					u.name as title
+				FROM
+					#__donorforce_donor as d
+				INNER JOIN #__users as u ON d.cms_user_id = u.id" 
+			key_field="value" 
+			value_field="title" 
+		>
+			<option></option>
+		</field>
+		
+		<field 
+			name="project_id" 
+			type="sql" 
+			default=""
+			required="true"  
+			label="Select Project"
+			query="SELECT
+					p.project_id as value,
+					p.name as title
+				FROM
+					#__donorforce_project as p" 
+			key_field="value" 
+			value_field="title" 
+		>
+			<option></option>
+		</field>
+		
+		
+		<field name="amount"
+			type="text"
+			label="Amount"
+			description="Donation Amount"
+			size="30"
+			class="inputbox"
+			required="true"			
+			default=""
+		/>
+
+		<field 
+			name="donation_start_date" 
+			type="calendar"
+			label="Start Date" 
+			description="Start Date"
+			format="%Y-%m-%d" 
+			class="inputbox"
+			required="true"				 
+		/>
+		
+		<field 
+			name="donation_end_date" 
+			type="calendar"
+			label="End Date" 
+			description="End Date"
+			format="%Y-%m-%d"
+			class="inputbox"	 
+		/>			
+		
+		<field 
+			name="deduction_day" 
+			type="list"
+			label="Deduction Date" 
+			description="Deduction Date"
+			class="inputbox"	
+		>
+			<option value="1">1st</option>
+			<option value="6">6th</option>
+			<option value="10">10th</option>
+			<option value="25">25th</option>
+			<option value="30">30th</option>
+		</field>
+		
+		<field 
+			name="frequency" 
+			type="list"
+			label="Frequency" 
+			description="Frequency"
+			class="inputbox"			
+		>
+			<option value="monthly">Monthly</option>
+			<option value="6-monthly">6-Monthly</option>
+			<option value="annually">Annually</option>			
+		</field>
+		
+		<field 
+			name="donation_type" 
+			type="hidden"
+			label="Donation Type" 
+			description="Donation Type"
+			class="inputbox"	
+			default="recurring"
+		/>
+		
+	</fieldset>
+						
+	
+			
+	
+	
+	
+						
+	
+			
+	<!--<fieldset name="don_subscription">
+		<field 
+			name="donation_project" 
+			type="sql" 
+			label="Project" 
+			query="			
+				SELECT
+					project_id,`name`
+				FROM
+					#__donorforce_project
+				WHERE
+					published = 1
+				ORDER BY
+					ordering ASC" 
+			key_field="project_id" 
+			value_field="name"
+		>
+		<option value=""></option>
+		</field>
+		
+		<field name="donation_type" 
+			type="list" 
+			label="Donation Type" 
+			description="" 
+			class="inputbox" 
+			size="1"
+		>
+			<option value=""></option>
+			<option value="once-off">Once-off</option>
+			<option value="monthly">Monthly</option>
+			<option value="six-monthly">Six Monthly</option>
+			<option value="annually">Annually</option>
+			<option value="bequest">Bequest</option>
+		</field>
+		
+		<field name="donation_source" 
+			type="list" 
+			label="Source" 
+			description="" 
+			class="inputbox" 
+			size="1"
+		>
+			<option value=""></option>
+			<option value="credit-card">Credit Card</option>
+			<option value="debit-order">Debit order</option>
+		</field>
+		
+		<field name="donation_amount"
+			type="text"
+			label="Amount"
+			description="Amount"
+			size="30"
+			class="inputbox"			
+		/>
+	
+	</fieldset>-->
+		
+</form>

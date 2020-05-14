@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="payment" method="upgrade">
+	<name>PayGate Payment Gateway</name>
+	<author>creativetech-solutions</author>
+	<creationDate>25th Sep 2015</creationDate>
+	<copyright>Creativetech-solutions. All Rights Reserved.</copyright>
+	<authorEmail>extensions@techjoomla.com</authorEmail>
+	<authorUrl>http://www.creativetech-solutions.com/</authorUrl>
+	<license>Open Source License, GNU GPL</license>
+	<version>1.4</version>
+	<description>PayGate Payment Gateway Plugin. </description>
+	<files>
+		<filename plugin="paygate">paygate.php</filename>
+				<folder>paygate</folder>
+	</files>
+	<languages> 
+		<language tag="en-GB">en-GB/en-GB.plg_payment_paygate.ini</language>
+	</languages> 
+	<!-- Fields for Joomla 1.6.x and onwards -->
+	<config name="params">
+		<fields name="params">
+			<fieldset name="basic">
+					<field name="plugin_name" type="text" default="PayGate" label="PLG_NAME" description="" />
+					<field name="plugin_mail" type="textarea" default="" label="PLG_MAIL" description="PLG_MAIL_DES" rows="5" cols="20"  />
+			<!-- ars edit-->
+			 <field
+				name="paygate_id"
+				type="text"
+				label="Paygate ID"
+				description="Paygate ID"
+				default=""
+				/>
+    		<field
+				name="secret"
+				type="text"
+				label="Paygate Secret"
+				description="Paygate Secret"
+				default=""
+				/>
+				
+				<field
+					name="pwd"
+					type="text"
+					label="Paygate Password"
+					description="Your password. The password is set by the merchant in the PayGate back office."
+					default=""
+				/>
+				
+    <!--<field name="currency" type="sql" default="ZAR" label="Select an currency" query="SELECT currency_code, currency_name  FROM #__donorforce_currencies" key_field="currency_code" value_field="currency_name" required="true">
+      <option value="">Please select your currency</option>
+    </field>-->
+			<!-- ars edit-->		
+					
+			</fieldset>
+		</fields>
+	</config>
+</extension>

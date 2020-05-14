@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+
+	<fieldset name="info" addfieldpath="/administrator/components/com_donorforce/models/fields">
+
+		<field 
+			name="project_id" 
+			type="text" 
+			default="0" 
+			label="Project ID" 
+			readonly="true" 
+			class="readonly" 
+		/>
+		<field name="pcategory_id" type="sql"
+				description="Project Category"
+				label="Project Category"
+				query="SELECT pcategory_id, title FROM #__donorforce_pcategory" key_field="pcategory_id" value_field="title"
+			>
+      		<option value="0">Please select Project Category</option>
+	  	</field>
+		<field 
+			name="name" 
+			type="text"
+			label="Project Name"
+			description="Project Name"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+		
+		<field 
+			name="description" 
+			type="editor" 
+			buttons="false"
+			hide="pagebreak,readmore" 
+			class="inputbox" 
+			label="Description" 
+			filter="safehtml" 
+			description="Project Description"
+			required="true"
+			
+		/>
+
+		
+				
+		<field 
+			name="date_start" 
+			type="calendar"			 
+			label="Starting Date" 
+			description="Starting Date of Project" 		
+			required="true"	 
+		/>
+				
+		<field 
+			name="date_end" 
+			type="calendar"			 
+			label="Ending Date" 
+			description="Ending Date of Project"  	
+			required="true"		 
+		/>
+						
+		<field name="fundraising_goal" type="text"
+			label="Fundraising Goal"
+			description="Unlimited or stipulate an amount"
+			class="inputbox"
+			size="30"
+		/>
+		
+	
+		<field name="image" type="media" directory="projects" />	
+		
+		<field preview_width="500" 
+					 preview_height="500" 
+					 label="Snapscan Image" 
+					 name="snapscan_image" 
+					 type="media" 
+					 directory="projects" />
+						
+		<field name="published" 
+			type="list" 
+			label="Published" 
+			description="" 
+			class="inputbox" 
+			size="1" 
+			default="1"
+		>
+			<option value="1">JPUBLISHED</option>
+			<option value="0">JUNPUBLISHED</option>
+		</field>
+		
+		
+	</fieldset>
+	
+</form>

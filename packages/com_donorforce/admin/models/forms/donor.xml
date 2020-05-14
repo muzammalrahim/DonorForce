@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+  <fieldset name="info" addfieldpath="/administrator/components/com_donorforce/models/fields">
+    <field 
+			name="donor_id" 
+			type="text" 
+			default="0" 
+			label="Donor Number" 
+			readonly="true" 
+			class="readonly" 
+		/>
+    
+		
+		 <field name="name_title" 
+			type="list" 
+			label="Title" 
+			description="" 
+			class="chzn-select" 
+			size="1" 
+			default=""
+		
+		>
+      <option value="">---Please Select---</option>
+			<option value="Dr">Dr</option>
+      <option value="Mr">Mr</option>
+      <option value="Mrs">Mrs</option>
+      <option value="Miss">Miss</option>
+      <option value="Ms">Ms</option>
+      <option value="Pastor">Pastor</option>
+      <option value="Prof">Prof</option>
+      <option value="Rev">Rev</option>
+    </field>
+		
+		
+		<field 
+			name="name_first" 
+			type="text"
+			label="First Name"
+			description="First Name"
+			class="inputbox"
+			size="30"
+			required="true"
+		/>
+    <field name="name_last" 
+			type="text" 
+			default="" 
+			label="Surname" 
+			description="Last Name"
+			size="30"
+			class="inputbox" 
+			required="true"
+			
+		/>
+    <field name="phone" 
+			type="text" 
+			default="" 
+			label="Telephone" 
+			description="Telephone"
+			size="30"
+			class="inputbox" 
+		/>
+		<field name="dateofbirth" 
+			type="calendar" 
+			default="0000-00-00" 
+			label="Birthday" 
+			description="Birthday"
+			size="30"
+			class="inputbox" 			
+		/>
+    <field name="mobile" 
+			type="text" 
+			default="" 
+			label="Mobile Phone" 
+			description="Mobile Phone"
+			size="30"
+			class="inputbox" 
+		/>
+    <field name="email" type="email"
+			class="inputbox"
+			description="Email"
+			label="Email"
+			required="true"
+			size="30"
+			validate="email"
+		/>
+    <field name="org_type" 
+			type="list" 
+			label="Organization Type" 
+			description="Organization Type" 
+			class="inputbox" 
+			size="1"
+			default="individual"	
+		>
+      <option value="church">Church</option>
+      <option value="business">Business</option>
+      <option value="individual">Individual</option>
+    </field>
+    <field name="user_created" 
+			type="calendar"
+			label="New user creation date" 
+			description="Date of creation of new user"
+			size="30"
+			class="inputbox"
+			default=""			
+		/>
+    <field name="org_latitude" 
+			type="text"
+			label="Church Latitude" 
+			description="Organization Latitude"
+			size="30"
+			class="inputbox"
+			default=""			
+		/>
+    <field name="org_longitude" 
+			type="text"
+			label="Church Longitude" 
+			description="Organization Longitude"
+			size="30"
+			class="inputbox"
+			default=""
+		/>
+    <field name="org_name" 
+			type="text"
+			label="Organization Name" 
+			description="Organization Name"
+			size="30"
+			class="inputbox"			
+		/>
+	
+    <field name="vat_number" 
+			type="text"
+			label="VAT Number" 
+			description="VAT Number"
+			size="30"
+			class="inputbox"			
+		/>
+	
+	<field name="level" 
+			type="list" 
+			label="Donor Level" 
+			description="" 
+			class="inputbox" 
+			size="1" 
+			default="0"
+			
+	 >
+	  <option value="-1">---Please Select Level---</option>
+	  <option class="brown circle" value="0">New Contact</option>
+	  <option class="green circle" value="1"> <i class="green"></i> Level 1</option>
+	  <option class="yellow circle" value="2">Level 2</option>
+	  <option class="dorange circle" value="3">Level 3</option>
+    </field>
+	<field name="membership"
+		type="list" 
+		label="Membership" 
+		description="" 
+		class="inputbox" 
+		size="1" 
+		default="0"
+			
+	>
+		<option value="">---Please Select---</option>
+		<option  value="1">Member</option>
+		<option  value="2 ">Non-Member</option>
+    </field>	
+	<field name="menbership_type"
+		type="MembershipList"
+		label="Membership Type"
+		class="inputbox" 
+		default="0"
+	/>
+    <field name="status" 
+		type="list" 
+		label="Status" 
+		description="Status" 
+		class="inputbox" 
+		size="1"
+	>
+      <option value="active">Active</option>
+      <option value="not_active">Not Active</option>
+      <option value="dormant">Dormant</option>
+      <option value="Missionary Supporter">Missionary Supporter</option>
+      <option value="Repeat Donor">Repeat Donor</option>
+      <option value="Regular Donor">Regular Donor</option>
+      <option value="Direct to Missionary">Direct to Missionary</option>
+      <option value="Never Given">Never Given</option>
+      <option value="First Gift">First Gift</option>
+      <option value="Donors in Kind">Donors in Kind</option>
+      <option value="Prayer Partner">Prayer Partner</option>
+      <option value="Debit Order">Debit Order</option>
+      <option value="Deceased">Deceased</option>
+      <option value="Immigrated">Immigrated</option>
+      <option value="Archived">Archived</option>
+    </field>
+
+    <field name="mail_only" type="radio" default="1" label="How to contact you?" description="">
+    	<option value="1">E-mail only</option>
+    	<option value="2">Mail only</option>
+    </field>
+    
+    <field name="published" 
+			type="list" 
+			label="Published" 
+			description="" 
+			class="inputbox" 
+			size="1" 
+			default="1"
+		>
+      <option value="1">JPUBLISHED</option>
+      <option value="0">JUNPUBLISHED</option>
+    </field>
+    <field name="cms_user_id" 
+			type="hidden" 
+			default="0" 			
+			readonly="true" 
+			class="readonly" 
+		/>
+  </fieldset>
+  <fieldset name="login_details">
+	<field name="cms_user_id" type="sql" 
+		default="0" 
+		class="chosen chosen-select"
+		label="Select Joomla User" 
+		query="SELECT id, name FROM #__users" 
+		key_field="id" value_field="name" 
+		>
+		<option value="0">Please Select Joomla User </option>
+	</field>
+    <field name="username" type="text"
+			class="inputbox"
+			description="Name"
+			label="Username"
+			required="true"
+			size="30"
+		/>
+    <field name="password" type="password"
+			autocomplete="off"
+			class="validate-password"
+			description="Password"
+			filter="raw"
+			label="Password"
+			size="30"
+		/>
+    <field name="password2" type="password"
+			autocomplete="off"
+			class="validate-password"
+			description="Confirm Password"
+			filter="raw"
+			label="Confirm Password"
+			size="30"
+			validate="equals"
+			field="password2"
+		/>
+  </fieldset>
+  <fieldset name="phy_address" >
+    <field name="phy_address"
+			type="text"
+			label="Address"
+			description="Address"
+			size="70"
+			class="inputbox"
+			default=""
+		/>
+	    <field name="phy_address2"
+			type="text"
+			label="Address Line 2"
+			description="Address Line 2"
+			size="70"
+			class="inputbox"
+			default=""
+		/>
+    <field name="phy_city" type="text"
+			label="City"
+			description="City"
+			class="inputbox"
+			size="30"
+		/>
+    <field name="phy_zip" type="text"
+			label="ZIP/ Postal Code"
+			description="ZIP / Postal Code"
+			class="inputbox"
+			size="30" 
+		/>
+    <field name="phy_state" type="text"
+			label="State / Province"
+			description="State / Province"
+			class="inputbox"
+			size="30"
+		/>
+    <field name="phy_country" type="sql" default="10" label="Country" query="SELECT country_code, country_name  FROM #__donorforce_countries" key_field="country_code" value_field="country_name" >
+      <option value="">Please select your country</option>
+    </field>
+  </fieldset>
+  <fieldset name="postal_address" >
+    <field name="post_address"
+			type="text"
+			label="Address"
+			description="Address"
+			size="70"
+			class="inputbox"
+			default=""
+		/>
+		<!-- The require condition is removed -->
+		<field name="post_address2"
+			type="text"
+			label="Address Line 2"
+			description="Address Line 2"
+			size="70"
+			class="inputbox"
+			default=""
+		/>
+    <field name="post_city" type="text"
+			label="City"
+			description="City"
+			class="inputbox"
+			size="30"
+			
+		/>
+    <field name="post_zip" type="text"
+			label="ZIP/ Postal Code"
+			description="ZIP / Postal Code"
+			class="inputbox"
+			size="30" 
+		/>
+    <field name="post_state" type="text"
+			label="State / Province"
+			description="State / Province"
+			class="inputbox"
+			size="30" 
+		/>
+    <field name="post_country" type="sql" default="10" label="Country" query="SELECT country_code, country_name  FROM #__donorforce_countries" key_field="country_code" value_field="country_name" >
+      <option value="">Please select your country</option>
+    </field>
+  </fieldset>
+  
+  <!--<fieldset name="don_subscription">
+		<field 
+			name="donation_project" 
+			type="sql" 
+			label="Project" 
+			query="			
+				SELECT
+					project_id,`name`
+				FROM
+					#__donorforce_project
+				WHERE
+					published = 1
+				ORDER BY
+					ordering ASC" 
+			key_field="project_id" 
+			value_field="name"
+		>
+		<option value=""></option>
+		</field>
+		
+		<field name="donation_type" 
+			type="list" 
+			label="Donation Type" 
+			description="" 
+			class="inputbox" 
+			size="1"
+		>
+			<option value=""></option>
+			<option value="once-off">Once-off</option>
+			<option value="monthly">Monthly</option>
+			<option value="six-monthly">Six Monthly</option>
+			<option value="annually">Annually</option>
+			<option value="bequest">Bequest</option>
+		</field>
+		
+		<field name="donation_source" 
+			type="list" 
+			label="Source" 
+			description="" 
+			class="inputbox" 
+			size="1"
+		>
+			<option value=""></option>
+			<option value="credit-card">Credit Card</option>
+			<option value="debit-order">Debit order</option>
+		</field>
+		
+		<field name="donation_amount"
+			type="text"
+			label="Amount"
+			description="Amount"
+			size="30"
+			class="inputbox"			
+		/>
+	
+	</fieldset>-->
+	<fieldset name="note">
+		<field 
+			name="note_title" 
+			type="text"
+			class="inputbox" 
+			label="Note Title"
+			description="Note Title"
+		/>
+		<field 
+			name="notes" 
+			type="editor" 
+			buttons="false"
+			hide="pagebreak,readmore" 
+			class="inputbox" 
+			label="Eneter Notes Here" 
+			filter="safehtml" 
+			description="Note Description"
+		/>
+	
+	</fieldset>
+
+	<fieldset name="entries" addfieldpath="/administrator/components/com_donorforce/models/fields">
+		<field name="entries"
+		 	label="Custom fields"
+			type="extrafield"
+			description="Additional Info" 
+			class="inputbox"
+			size="30"
+		/>
+
+	</fieldset>
+
+	<fieldset name="entries">
+		<field name="entries"
+		 	label="Custom fields"
+			type="text"
+			description="Additional Info" 
+			class="inputbox"
+			size="30"
+		/>
+
+		 
+
+	</fieldset>
+
+	<!-- The new field set is to manage the data of the new extra fields in donor section and  -->
+  
+</form>

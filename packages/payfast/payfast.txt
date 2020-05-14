@@ -1,0 +1,1868 @@
+---------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 425
+    [processor] => payfast
+    [donation_id] => 494
+    [m_payment_id] => 
+    [pf_payment_id] => 359888
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 11.00
+    [amount_fee] => -0.25
+    [amount_net] => 10.75
+    [custom_str1] => 425
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Test
+    [name_last] => User 01
+    [email_address] => sbtu01@payfast.co.za
+    [merchant_id] => 10000100
+    [signature] => fd56694f8d1e078e38f90cd3d7ca8ca3
+)
+returnString=m_payment_id=&pf_payment_id=359888&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=11.00&amount_fee=-0.25&amount_net=10.75&custom_str1=425&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Test&name_last=User+01&email_address=sbtu01%40payfast.co.za&merchant_id=10000100md5=fd56694f8d1e078e38f90cd3d7ca8ca3--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 559
+    [processor] => payfast
+    [donation_id] => 649
+    [m_payment_id] => 
+    [pf_payment_id] => 615808
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 120.00
+    [amount_fee] => -2.76
+    [amount_net] => 117.24
+    [custom_str1] => 559
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Test
+    [name_last] => User 01
+    [email_address] => sbtu01@payfast.co.za
+    [merchant_id] => 10000100
+    [signature] => 8ec0cd32a2559f28fd3f5bca442eda1a
+)
+returnString=m_payment_id=&pf_payment_id=615808&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=120.00&amount_fee=-2.76&amount_net=117.24&custom_str1=559&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Test&name_last=User+01&email_address=sbtu01%40payfast.co.za&merchant_id=10000100md5=8ec0cd32a2559f28fd3f5bca442eda1a--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 560
+    [processor] => payfast
+    [donation_id] => 650
+    [m_payment_id] => 
+    [pf_payment_id] => 615878
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 560
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Test
+    [name_last] => User 01
+    [email_address] => sbtu01@payfast.co.za
+    [merchant_id] => 10000100
+    [signature] => 41c537fa779eb477e63a94a908771456
+)
+returnString=m_payment_id=&pf_payment_id=615878&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=560&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Test&name_last=User+01&email_address=sbtu01%40payfast.co.za&merchant_id=10000100md5=41c537fa779eb477e63a94a908771456--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 561
+    [processor] => payfast
+    [donation_id] => 651
+    [m_payment_id] => 
+    [pf_payment_id] => 615892
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 561
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Test
+    [name_last] => User 01
+    [email_address] => sbtu01@payfast.co.za
+    [merchant_id] => 10000100
+    [signature] => 8c27cfd8b28c42308a7985650a2a1d9f
+)
+returnString=m_payment_id=&pf_payment_id=615892&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=561&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Test&name_last=User+01&email_address=sbtu01%40payfast.co.za&merchant_id=10000100md5=8c27cfd8b28c42308a7985650a2a1d9f--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 562
+    [processor] => payfast
+    [donation_id] => 652
+    [m_payment_id] => 
+    [pf_payment_id] => 615906
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 562
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Test
+    [name_last] => User 01
+    [email_address] => sbtu01@payfast.co.za
+    [merchant_id] => 10000100
+    [signature] => 26c077c83fb05e0b7a2a9ec80f7448a3
+)
+returnString=m_payment_id=&pf_payment_id=615906&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=562&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Test&name_last=User+01&email_address=sbtu01%40payfast.co.za&merchant_id=10000100md5=26c077c83fb05e0b7a2a9ec80f7448a3--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 566
+    [processor] => payfast
+    [donation_id] => 656
+    [m_payment_id] => 
+    [pf_payment_id] => 619565
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 566
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Test
+    [name_last] => User 01
+    [email_address] => sbtu01@payfast.co.za
+    [merchant_id] => 10000100
+    [signature] => 303a304cbeed5377df0195c5bf4e122d
+)
+returnString=m_payment_id=&pf_payment_id=619565&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=566&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Test&name_last=User+01&email_address=sbtu01%40payfast.co.za&merchant_id=10000100md5=303a304cbeed5377df0195c5bf4e122d--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 567
+    [processor] => payfast
+    [donation_id] => 657
+    [m_payment_id] => 
+    [pf_payment_id] => 619579
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 567
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Test
+    [name_last] => User 01
+    [email_address] => sbtu01@payfast.co.za
+    [merchant_id] => 10000100
+    [signature] => 85580456c656911a2625e9847bbd1815
+)
+returnString=m_payment_id=&pf_payment_id=619579&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=567&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Test&name_last=User+01&email_address=sbtu01%40payfast.co.za&merchant_id=10000100md5=85580456c656911a2625e9847bbd1815--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 568
+    [processor] => payfast
+    [donation_id] => 658
+    [m_payment_id] => 
+    [pf_payment_id] => 619580
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 568
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Test
+    [name_last] => User 01
+    [email_address] => sbtu01@payfast.co.za
+    [merchant_id] => 10000100
+    [signature] => 1ee8759ab05f69875ec25d513ea82404
+)
+returnString=m_payment_id=&pf_payment_id=619580&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=568&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Test&name_last=User+01&email_address=sbtu01%40payfast.co.za&merchant_id=10000100md5=1ee8759ab05f69875ec25d513ea82404--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 569
+    [processor] => payfast
+    [donation_id] => 659
+    [m_payment_id] => 
+    [pf_payment_id] => 619589
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 569
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Test
+    [name_last] => User 01
+    [email_address] => sbtu01@payfast.co.za
+    [merchant_id] => 10000100
+    [signature] => 55bee0ec0001650721430e9d25914858
+)
+returnString=m_payment_id=&pf_payment_id=619589&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=569&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Test&name_last=User+01&email_address=sbtu01%40payfast.co.za&merchant_id=10000100md5=55bee0ec0001650721430e9d25914858--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 570
+    [processor] => payfast
+    [donation_id] => 660
+    [m_payment_id] => 
+    [pf_payment_id] => 619593
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 570
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Test
+    [name_last] => User 01
+    [email_address] => sbtu01@payfast.co.za
+    [merchant_id] => 10000100
+    [signature] => bcf1560f901dd33516165b6df3ea8542
+)
+returnString=m_payment_id=&pf_payment_id=619593&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=570&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Test&name_last=User+01&email_address=sbtu01%40payfast.co.za&merchant_id=10000100md5=bcf1560f901dd33516165b6df3ea8542--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 571
+    [processor] => payfast
+    [donation_id] => 661
+    [m_payment_id] => 
+    [pf_payment_id] => 619598
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 571
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Test
+    [name_last] => User 01
+    [email_address] => sbtu01@payfast.co.za
+    [merchant_id] => 10000100
+    [signature] => 6f0bb3d49bea83a967258a4f01e10027
+)
+returnString=m_payment_id=&pf_payment_id=619598&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=571&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Test&name_last=User+01&email_address=sbtu01%40payfast.co.za&merchant_id=10000100md5=6f0bb3d49bea83a967258a4f01e10027--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 572
+    [processor] => payfast
+    [donation_id] => 662
+    [m_payment_id] => 
+    [pf_payment_id] => 619612
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 572
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Test
+    [name_last] => User 01
+    [email_address] => sbtu01@payfast.co.za
+    [merchant_id] => 10000100
+    [signature] => 0ea623273a0e2ffceb555390441eb625
+)
+returnString=m_payment_id=&pf_payment_id=619612&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=572&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Test&name_last=User+01&email_address=sbtu01%40payfast.co.za&merchant_id=10000100md5=0ea623273a0e2ffceb555390441eb625--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 588
+    [processor] => payfast
+    [donation_id] => 817
+    [m_payment_id] => 
+    [pf_payment_id] => 748022
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 588
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Brooke Halteman
+    [name_last] => Brooke Halteman
+    [email_address] => brooke@netwisemm.co.za
+    [merchant_id] => 10000100
+    [signature] => 2d376971fd13c7c3114169a3f5544944
+)
+returnString=m_payment_id=&pf_payment_id=748022&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=588&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Brooke+Halteman&name_last=Brooke+Halteman&email_address=brooke%40netwisemm.co.za&merchant_id=10000100md5=2d376971fd13c7c3114169a3f5544944--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 594
+    [processor] => payfast
+    [donation_id] => 823
+    [m_payment_id] => 
+    [pf_payment_id] => 772257
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 594
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Brooke Halteman
+    [name_last] => Brooke Halteman
+    [email_address] => brooke@netwisemm.co.za
+    [merchant_id] => 10000100
+    [signature] => a5cba779d5d5f1c3ae7fa7d61e5fa255
+)
+returnString=m_payment_id=&pf_payment_id=772257&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=594&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Brooke+Halteman&name_last=Brooke+Halteman&email_address=brooke%40netwisemm.co.za&merchant_id=10000100md5=a5cba779d5d5f1c3ae7fa7d61e5fa255--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 609
+    [processor] => payfast
+    [donation_id] => 839
+    [m_payment_id] => 
+    [pf_payment_id] => 779392
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 609
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Brooke Halteman
+    [name_last] => Brooke Halteman
+    [email_address] => brooke@netwisemm.co.za
+    [merchant_id] => 10000100
+    [signature] => 75013d4eb63b5e7179fbfbb27a108ad2
+)
+returnString=m_payment_id=&pf_payment_id=779392&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=609&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Brooke+Halteman&name_last=Brooke+Halteman&email_address=brooke%40netwisemm.co.za&merchant_id=10000100md5=75013d4eb63b5e7179fbfbb27a108ad2--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 610
+    [processor] => payfast
+    [donation_id] => 849
+    [m_payment_id] => 
+    [pf_payment_id] => 782220
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 610
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Brooke Halteman
+    [name_last] => Brooke Halteman
+    [email_address] => brooke@netwisemm.co.za
+    [merchant_id] => 10000100
+    [signature] => 48736f32f1b673e9aa747f71d0b7b3ff
+)
+returnString=m_payment_id=&pf_payment_id=782220&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=610&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Brooke+Halteman&name_last=Brooke+Halteman&email_address=brooke%40netwisemm.co.za&merchant_id=10000100md5=48736f32f1b673e9aa747f71d0b7b3ff--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 630
+    [processor] => payfast
+    [donation_id] => 1676
+    [m_payment_id] => 
+    [pf_payment_id] => 786761
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 630
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Brooke Halteman
+    [name_last] => Brooke Halteman
+    [email_address] => brooke@netwisemm.co.za
+    [merchant_id] => 10000100
+    [signature] => ec0856ceed68b219d4a755b0163e5e42
+)
+returnString=m_payment_id=&pf_payment_id=786761&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=630&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Brooke+Halteman&name_last=Brooke+Halteman&email_address=brooke%40netwisemm.co.za&merchant_id=10000100md5=ec0856ceed68b219d4a755b0163e5e42--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 632
+    [processor] => payfast
+    [donation_id] => 1678
+    [m_payment_id] => 
+    [pf_payment_id] => 786768
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 200.00
+    [amount_fee] => -4.60
+    [amount_net] => 195.40
+    [custom_str1] => 632
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Brooke Halteman
+    [name_last] => Brooke Halteman
+    [email_address] => brooke@netwisemm.co.za
+    [merchant_id] => 10000100
+    [signature] => 59495f22a42989494afeb4181decaefd
+)
+returnString=m_payment_id=&pf_payment_id=786768&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=200.00&amount_fee=-4.60&amount_net=195.40&custom_str1=632&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Brooke+Halteman&name_last=Brooke+Halteman&email_address=brooke%40netwisemm.co.za&merchant_id=10000100md5=59495f22a42989494afeb4181decaefd--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 635
+    [processor] => payfast
+    [donation_id] => 1681
+    [m_payment_id] => 
+    [pf_payment_id] => 786793
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 635
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Brooke Halteman
+    [name_last] => Brooke Halteman
+    [email_address] => brooke@netwisemm.co.za
+    [merchant_id] => 10000100
+    [signature] => 844767b5d5589d94ae7e084440fd4b04
+)
+returnString=m_payment_id=&pf_payment_id=786793&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=635&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Brooke+Halteman&name_last=Brooke+Halteman&email_address=brooke%40netwisemm.co.za&merchant_id=10000100md5=844767b5d5589d94ae7e084440fd4b04--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 637
+    [processor] => payfast
+    [donation_id] => 1683
+    [m_payment_id] => 
+    [pf_payment_id] => 786801
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 637
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => b41357c3265aebafe1c08b6bfc2180c7
+)
+returnString=m_payment_id=&pf_payment_id=786801&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=637&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=b41357c3265aebafe1c08b6bfc2180c7--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 638
+    [processor] => payfast
+    [donation_id] => 1684
+    [m_payment_id] => 
+    [pf_payment_id] => 786900
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 350.00
+    [amount_fee] => -8.05
+    [amount_net] => 341.95
+    [custom_str1] => 638
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => 64bfab474142de5ea53084088befd4bc
+)
+returnString=m_payment_id=&pf_payment_id=786900&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=350.00&amount_fee=-8.05&amount_net=341.95&custom_str1=638&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=64bfab474142de5ea53084088befd4bc--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 639
+    [processor] => payfast
+    [donation_id] => 1685
+    [m_payment_id] => 
+    [pf_payment_id] => 786903
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 350.00
+    [amount_fee] => -8.05
+    [amount_net] => 341.95
+    [custom_str1] => 639
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => 395cdb146e239e130860e75a9c22e659
+)
+returnString=m_payment_id=&pf_payment_id=786903&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=350.00&amount_fee=-8.05&amount_net=341.95&custom_str1=639&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=395cdb146e239e130860e75a9c22e659--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 640
+    [processor] => payfast
+    [donation_id] => 1686
+    [m_payment_id] => 
+    [pf_payment_id] => 786905
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 750.00
+    [amount_fee] => -17.25
+    [amount_net] => 732.75
+    [custom_str1] => 640
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => 0664473c6018c3fdad92a03935503630
+)
+returnString=m_payment_id=&pf_payment_id=786905&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=750.00&amount_fee=-17.25&amount_net=732.75&custom_str1=640&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=0664473c6018c3fdad92a03935503630--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 641
+    [processor] => payfast
+    [donation_id] => 1687
+    [m_payment_id] => 
+    [pf_payment_id] => 786911
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 1000.00
+    [amount_fee] => -23.00
+    [amount_net] => 977.00
+    [custom_str1] => 641
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => 23154c462699d5dfe619fb886c806d7e
+)
+returnString=m_payment_id=&pf_payment_id=786911&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=1000.00&amount_fee=-23.00&amount_net=977.00&custom_str1=641&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=23154c462699d5dfe619fb886c806d7e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 642
+    [processor] => payfast
+    [donation_id] => 1689
+    [m_payment_id] => 
+    [pf_payment_id] => 786912
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 350.00
+    [amount_fee] => -8.05
+    [amount_net] => 341.95
+    [custom_str1] => 642
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => 4a4b4860b208b77f81048d40737b1bf6
+)
+returnString=m_payment_id=&pf_payment_id=786912&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=350.00&amount_fee=-8.05&amount_net=341.95&custom_str1=642&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=4a4b4860b208b77f81048d40737b1bf6--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 643
+    [processor] => payfast
+    [donation_id] => 1690
+    [m_payment_id] => 
+    [pf_payment_id] => 786914
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 200.00
+    [amount_fee] => -4.60
+    [amount_net] => 195.40
+    [custom_str1] => 643
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => d2d0477e9af8b5741cd92ffdea115a0a
+)
+returnString=m_payment_id=&pf_payment_id=786914&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=200.00&amount_fee=-4.60&amount_net=195.40&custom_str1=643&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=d2d0477e9af8b5741cd92ffdea115a0a--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 647
+    [processor] => payfast
+    [donation_id] => 1694
+    [m_payment_id] => 
+    [pf_payment_id] => 786955
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 500.00
+    [amount_fee] => -11.50
+    [amount_net] => 488.50
+    [custom_str1] => 647
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => 183cd22209fbbad8a4e0c729a1e01b21
+)
+returnString=m_payment_id=&pf_payment_id=786955&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=500.00&amount_fee=-11.50&amount_net=488.50&custom_str1=647&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=183cd22209fbbad8a4e0c729a1e01b21--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 648
+    [processor] => payfast
+    [donation_id] => 1695
+    [m_payment_id] => 
+    [pf_payment_id] => 786959
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 648
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => ab8f7c98c284e961f613e49341dcd5a8
+)
+returnString=m_payment_id=&pf_payment_id=786959&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=648&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=ab8f7c98c284e961f613e49341dcd5a8--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 659
+    [processor] => payfast
+    [donation_id] => 1706
+    [m_payment_id] => 
+    [pf_payment_id] => 787001
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 659
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => 88d0b6cf4c1008ef8fad06d9fff832ff
+)
+returnString=m_payment_id=&pf_payment_id=787001&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=659&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=88d0b6cf4c1008ef8fad06d9fff832ff--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 659
+    [processor] => payfast
+    [donation_id] => 1706
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 660
+    [processor] => payfast
+    [donation_id] => 1707
+    [m_payment_id] => 
+    [pf_payment_id] => 787005
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 1000.00
+    [amount_fee] => -23.00
+    [amount_net] => 977.00
+    [custom_str1] => 660
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => cf75492894a8d8c48fa8db1688df93c4
+)
+returnString=m_payment_id=&pf_payment_id=787005&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=1000.00&amount_fee=-23.00&amount_net=977.00&custom_str1=660&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=cf75492894a8d8c48fa8db1688df93c4--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 660
+    [processor] => payfast
+    [donation_id] => 1707
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 662
+    [processor] => payfast
+    [donation_id] => 1709
+    [m_payment_id] => 
+    [pf_payment_id] => 787014
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 662
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => 6c7e9ee354cdf3ffc8e5b37002f22db0
+)
+returnString=m_payment_id=&pf_payment_id=787014&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=662&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=6c7e9ee354cdf3ffc8e5b37002f22db0--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 662
+    [processor] => payfast
+    [donation_id] => 1709
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 663
+    [processor] => payfast
+    [donation_id] => 1710
+    [m_payment_id] => 
+    [pf_payment_id] => 787024
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 663
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => 89827da7c21508533e74590a8631ddce
+)
+returnString=m_payment_id=&pf_payment_id=787024&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=663&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=89827da7c21508533e74590a8631ddce--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 663
+    [processor] => payfast
+    [donation_id] => 1710
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 663
+    [processor] => payfast
+    [donation_id] => 1710
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 665
+    [processor] => payfast
+    [donation_id] => 1712
+    [m_payment_id] => 
+    [pf_payment_id] => 787034
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 665
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => b4eae6b342de74aa71195aa558040228
+)
+returnString=m_payment_id=&pf_payment_id=787034&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=665&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=b4eae6b342de74aa71195aa558040228--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 665
+    [processor] => payfast
+    [donation_id] => 1712
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 667
+    [processor] => payfast
+    [donation_id] => 1714
+    [m_payment_id] => 
+    [pf_payment_id] => 787048
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 667
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => 9aa9d320712134de3202ba34500f5056
+)
+returnString=m_payment_id=&pf_payment_id=787048&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=667&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=9aa9d320712134de3202ba34500f5056--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 667
+    [processor] => payfast
+    [donation_id] => 1714
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 668
+    [processor] => payfast
+    [donation_id] => 1715
+    [m_payment_id] => 
+    [pf_payment_id] => 787053
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 668
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => afcc0465395805b6334f435c2bd4cd2f
+)
+returnString=m_payment_id=&pf_payment_id=787053&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=668&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=afcc0465395805b6334f435c2bd4cd2f--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 668
+    [processor] => payfast
+    [donation_id] => 1715
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 670
+    [processor] => payfast
+    [donation_id] => 1717
+    [m_payment_id] => 
+    [pf_payment_id] => 787115
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 670
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Brooke Halteman
+    [name_last] => Brooke Halteman
+    [email_address] => brooke@netwisemm.co.za
+    [merchant_id] => 10000100
+    [signature] => 87e388ea1f57ae7144b2caaee76b1aa8
+)
+returnString=m_payment_id=&pf_payment_id=787115&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=670&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Brooke+Halteman&name_last=Brooke+Halteman&email_address=brooke%40netwisemm.co.za&merchant_id=10000100md5=87e388ea1f57ae7144b2caaee76b1aa8--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 670
+    [processor] => payfast
+    [donation_id] => 1717
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 671
+    [processor] => payfast
+    [donation_id] => 1718
+    [m_payment_id] => 
+    [pf_payment_id] => 787486
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 671
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Brooke Halteman
+    [name_last] => Brooke Halteman
+    [email_address] => brooke@netwisemm.co.za
+    [merchant_id] => 10000100
+    [signature] => 04a0416d15b1aba4c9e2064b9f2dfe38
+)
+returnString=m_payment_id=&pf_payment_id=787486&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=671&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Brooke+Halteman&name_last=Brooke+Halteman&email_address=brooke%40netwisemm.co.za&merchant_id=10000100md5=04a0416d15b1aba4c9e2064b9f2dfe38--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 671
+    [processor] => payfast
+    [donation_id] => 1718
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 672
+    [processor] => payfast
+    [donation_id] => 1719
+    [m_payment_id] => 
+    [pf_payment_id] => 787523
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 672
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => ae53686032c8e94ae4052aaf75daf800
+)
+returnString=m_payment_id=&pf_payment_id=787523&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=672&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=ae53686032c8e94ae4052aaf75daf800--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 672
+    [processor] => payfast
+    [donation_id] => 1719
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 673
+    [processor] => payfast
+    [donation_id] => 1720
+    [m_payment_id] => 
+    [pf_payment_id] => 787526
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 673
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => d3f6bd1dafc47805ff0451af4d1c2485
+)
+returnString=m_payment_id=&pf_payment_id=787526&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=673&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=d3f6bd1dafc47805ff0451af4d1c2485--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 673
+    [processor] => payfast
+    [donation_id] => 1720
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 674
+    [processor] => payfast
+    [donation_id] => 1721
+    [m_payment_id] => 
+    [pf_payment_id] => 787534
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 674
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => d96892b28d37e0830f0471f5fb23156a
+)
+returnString=m_payment_id=&pf_payment_id=787534&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=674&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=d96892b28d37e0830f0471f5fb23156a--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 674
+    [processor] => payfast
+    [donation_id] => 1721
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 675
+    [processor] => payfast
+    [donation_id] => 1722
+    [m_payment_id] => 
+    [pf_payment_id] => 787537
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 675
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => ef199e2f1f5bce15b4855505c96e1c7d
+)
+returnString=m_payment_id=&pf_payment_id=787537&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=675&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=ef199e2f1f5bce15b4855505c96e1c7d--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 675
+    [processor] => payfast
+    [donation_id] => 1722
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 676
+    [processor] => payfast
+    [donation_id] => 1723
+    [m_payment_id] => 
+    [pf_payment_id] => 787549
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 676
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => 73b55259b3873bbc7a61c97f6eefec60
+)
+returnString=m_payment_id=&pf_payment_id=787549&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=676&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=73b55259b3873bbc7a61c97f6eefec60--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 676
+    [processor] => payfast
+    [donation_id] => 1723
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 677
+    [processor] => payfast
+    [donation_id] => 1724
+    [m_payment_id] => 
+    [pf_payment_id] => 787554
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 677
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => bb3db49961c2dbac09a828474c4427d7
+)
+returnString=m_payment_id=&pf_payment_id=787554&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=677&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=bb3db49961c2dbac09a828474c4427d7--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 677
+    [processor] => payfast
+    [donation_id] => 1724
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 678
+    [processor] => payfast
+    [donation_id] => 1725
+    [m_payment_id] => 
+    [pf_payment_id] => 787557
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 200.00
+    [amount_fee] => -4.60
+    [amount_net] => 195.40
+    [custom_str1] => 678
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => 77214a3e2b3dcd8f2e30c68fa6bbe929
+)
+returnString=m_payment_id=&pf_payment_id=787557&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=200.00&amount_fee=-4.60&amount_net=195.40&custom_str1=678&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=77214a3e2b3dcd8f2e30c68fa6bbe929--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 678
+    [processor] => payfast
+    [donation_id] => 1725
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 679
+    [processor] => payfast
+    [donation_id] => 1726
+    [m_payment_id] => 
+    [pf_payment_id] => 787561
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 679
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => 4e221688daba99dd457c358fb7945bc5
+)
+returnString=m_payment_id=&pf_payment_id=787561&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=679&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=4e221688daba99dd457c358fb7945bc5--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 679
+    [processor] => payfast
+    [donation_id] => 1726
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 679
+    [processor] => payfast
+    [donation_id] => 1726
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 679
+    [processor] => payfast
+    [donation_id] => 1726
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 680
+    [processor] => payfast
+    [donation_id] => 1727
+    [m_payment_id] => 
+    [pf_payment_id] => 787563
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 680
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => 2a119fcc9b5a571715b087031e17de55
+)
+returnString=m_payment_id=&pf_payment_id=787563&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=680&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=2a119fcc9b5a571715b087031e17de55--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 680
+    [processor] => payfast
+    [donation_id] => 1727
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 681
+    [processor] => payfast
+    [donation_id] => 1728
+    [m_payment_id] => 
+    [pf_payment_id] => 787573
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 681
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => ea4f37c09b2e140d3cf93d6887c6036d
+)
+returnString=m_payment_id=&pf_payment_id=787573&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=681&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=ea4f37c09b2e140d3cf93d6887c6036d--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 681
+    [processor] => payfast
+    [donation_id] => 1728
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 682
+    [processor] => payfast
+    [donation_id] => 1729
+    [m_payment_id] => 
+    [pf_payment_id] => 787574
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 682
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => 7b1ed3a2e110455b78c34de9c09fc29f
+)
+returnString=m_payment_id=&pf_payment_id=787574&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=682&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=7b1ed3a2e110455b78c34de9c09fc29f--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 682
+    [processor] => payfast
+    [donation_id] => 1729
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 683
+    [processor] => payfast
+    [donation_id] => 1730
+    [m_payment_id] => 
+    [pf_payment_id] => 787638
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 683
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => 6450c3c2fc32c3e6a0e636b3bb27cfeb
+)
+returnString=m_payment_id=&pf_payment_id=787638&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=683&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=6450c3c2fc32c3e6a0e636b3bb27cfeb--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 683
+    [processor] => payfast
+    [donation_id] => 1730
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 684
+    [processor] => payfast
+    [donation_id] => 1731
+    [m_payment_id] => 
+    [pf_payment_id] => 787645
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 1000.00
+    [amount_fee] => -23.00
+    [amount_net] => 977.00
+    [custom_str1] => 684
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => a7f907434ce06e0cec5eec6d0f4be27e
+)
+returnString=m_payment_id=&pf_payment_id=787645&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=1000.00&amount_fee=-23.00&amount_net=977.00&custom_str1=684&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=a7f907434ce06e0cec5eec6d0f4be27e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 684
+    [processor] => payfast
+    [donation_id] => 1731
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 685
+    [processor] => payfast
+    [donation_id] => 1732
+    [m_payment_id] => 
+    [pf_payment_id] => 787646
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 1000.00
+    [amount_fee] => -23.00
+    [amount_net] => 977.00
+    [custom_str1] => 685
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => eb300c7d2a850f1195b955edadfb9d5a
+)
+returnString=m_payment_id=&pf_payment_id=787646&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=1000.00&amount_fee=-23.00&amount_net=977.00&custom_str1=685&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=eb300c7d2a850f1195b955edadfb9d5a--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 685
+    [processor] => payfast
+    [donation_id] => 1732
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 686
+    [processor] => payfast
+    [donation_id] => 1733
+    [m_payment_id] => 
+    [pf_payment_id] => 787650
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 686
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => de07e4b5b67c61f72f5ef922069e54b4
+)
+returnString=m_payment_id=&pf_payment_id=787650&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=686&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=de07e4b5b67c61f72f5ef922069e54b4--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 686
+    [processor] => payfast
+    [donation_id] => 1733
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 687
+    [processor] => payfast
+    [donation_id] => 1734
+    [m_payment_id] => 
+    [pf_payment_id] => 787659
+    [payment_status] => COMPLETE
+    [item_name] => Donation
+    [item_description] => Donation
+    [amount_gross] => 100.00
+    [amount_fee] => -2.30
+    [amount_net] => 97.70
+    [custom_str1] => 687
+    [custom_str2] => 
+    [custom_str3] => 
+    [custom_str4] => 
+    [custom_str5] => 
+    [custom_int1] => 
+    [custom_int2] => 
+    [custom_int3] => 
+    [custom_int4] => 
+    [custom_int5] => 
+    [name_first] => Ahsan khan
+    [name_last] => Ahsan khan
+    [email_address] => ahsandev.creative@gmail.com
+    [merchant_id] => 10000100
+    [signature] => 674fdd2326c3011dcfa7d0beb4c00057
+)
+returnString=m_payment_id=&pf_payment_id=787659&payment_status=COMPLETE&item_name=Donation&item_description=Donation&amount_gross=100.00&amount_fee=-2.30&amount_net=97.70&custom_str1=687&custom_str2=&custom_str3=&custom_str4=&custom_str5=&custom_int1=&custom_int2=&custom_int3=&custom_int4=&custom_int5=&name_first=Ahsan+khan&name_last=Ahsan+khan&email_address=ahsandev.creative%40gmail.com&merchant_id=10000100md5=674fdd2326c3011dcfa7d0beb4c00057--/-----------------isvalidipn----------------Array
+(
+    [option] => com_donorforce
+    [task] => payment.processpayment
+    [order_id] => 687
+    [processor] => payfast
+    [donation_id] => 1734
+)
+returnString=md5=d41d8cd98f00b204e9800998ecf8427e--/--

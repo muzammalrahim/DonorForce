@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+
+	<fieldset name="donation" >
+
+		<field 
+			name="donation_id" 
+			type="text" 
+			default="0" 
+			label="Banking Instruction No. (ID)" 
+			readonly="true" 
+			class="readonly"
+			
+		/>
+		
+		<field 
+			name="donor_id" 
+			type="sql" 
+			default=""
+			required="true"  
+			label="Select Donor"
+			query="SELECT
+					u.id as value,
+					u.name as title
+				FROM
+					#__donorforce_donor as d
+				INNER JOIN #__users as u ON d.cms_user_id = u.id" 
+			key_field="value" 
+			value_field="title"
+		>
+			<option ></option>
+		</field>
+			
+	</fieldset>
+	
+	<fieldset name="donation_ins">
+		
+		<field 
+			name="debit_order_status" 
+			type="list"
+			label="Debit Order Status" 
+			description="Published/Unpublished"
+			class="inputbox"			
+		>
+			<option value="active">Active</option>
+			<option value="not-active">Not Active</option>			
+		</field>
+		
+	</fieldset>
+	
+	<fieldset name="debit_info" >
+
+		<field 
+			name="debit_order_name" 
+			type="text"
+			label="Debit Order Name" 
+			description="Debit Order Name"
+			class="inputbox"
+			size="30"
+			required="true"			 
+		/>
+		
+		<field 
+			name="bank_name" 
+			type="text"
+			label="Bank Name" 
+			description="Bank Name"
+			class="inputbox"
+			size="30"
+			required="true"			 
+		/>
+		
+		<field 
+			name="account_number" 
+			type="text"
+			label="Account Number" 
+			description="Account Number"
+			class="inputbox"
+			size="30"
+			required="true"			 
+		/>
+		
+		<field 
+			name="method_of_payment" 
+			type="text"
+			label="Method of Payment" 
+			description="Method of Payment"
+			class="inputbox"
+			size="30"			 
+		/>
+		
+		<field 
+			name="account_name" 
+			type="text"
+			label="Account Name" 
+			description="Account Name"
+			class="inputbox"
+			size="30"
+			required="true"			 
+		/>
+		
+		<field 
+			name="account_type" 
+			type="list"
+			label="Account type" 
+			description="Account type"
+			class="inputbox"			
+		>
+			<option value="cheque">Cheque</option>
+			<option value="savings">Savings</option>
+			<option value="transmission">Transmission</option>
+		</field>
+		
+		<field 
+			name="branchcode" 
+			type="text"
+			label="Branch Code" 
+			description="Branch Code"
+			class="inputbox"
+			size="30"
+			required="true"			 
+		/>
+		<field 
+			name="account_name" 
+			type="text"
+			label="Account Name" 
+			description="Account Name"
+			class="inputbox"
+			size="30"
+			required="true"			 
+		/>
+		<field 
+			name="branch_name" 
+			type="text"
+			label="Branch Name" 
+			description="Branch Name"
+			class="inputbox"
+			size="30"			 
+		/>
+		
+		<field 
+			name="comp_code" 
+			type="text"
+			label="Comp Code" 
+			description="Comp Code"
+			class="inputbox"
+			size="30"			 
+		/>
+		
+		<field 
+			name="beneficiary_reference" 
+			type="text"
+			label="Beneficiary Reference" 
+			description="Appears on donor’s Bank Statement This needs to be set under Configuration 
+			and cannot be changed in this section"
+			class="inputbox"
+			size="30"			 
+		/>
+	</fieldset>
+	
+	<fieldset name="credit_info" >
+
+		<field 
+			name="credit_account_name" 
+			type="text"
+			label="Name on Card" 
+			description="Name on Card"
+			class="inputbox"
+			size="30"
+					 
+		/>
+		
+		<field 
+			name="credit_card_type" 
+			type="radio"
+			label="Visa / Mastercard" 
+			description="Visa / Mastercard"
+			class="inputbox"
+			default="visa"			
+		>
+			<option value="visa">Visa</option>
+			<option value="mastercard">Mastercard</option>			
+		</field>
+		
+		<field 
+			name="credit_card_number" 
+			type="text"
+			label="Card Number" 
+			description="Card Number"
+			class="inputbox"
+			size="30"
+					 
+		/>
+		
+		<field 
+			name="credit_expiry_date" 
+			type="calendar"
+			label="Expiry Date" 
+			description="Expiry Date"
+			class="inputbox"
+			format="%Y-%m-%d"
+					 
+		/>
+		
+		<field 
+			name="credit_card_cvv" 
+			type="text"
+			label="CVV Number" 
+			description="CVV Number"
+			class="inputbox"
+			size="3"			 
+		/>
+	</fieldset>
+	
+	
+	
+</form>

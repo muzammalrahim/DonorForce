@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Project Category">
+		<message>
+			<![CDATA[Project Category]]>
+		</message>
+	</layout>
+	
+	<!-- Add fields to the request variables for the layout. -->
+	<fields name="request">
+		<fieldset name="request"
+			addfieldpath="/administrator/components/com_donorforce/models/fields"
+		>
+
+			<field name="pcategory_id" type="sql"
+				description="Project Category"
+				extension="com_donorforce"
+				label="Project Category"
+				required="true"
+				query="SELECT pcategory_id, title FROM #__donorforce_pcategory" key_field="pcategory_id" value_field="title"
+			>
+      		<option value="">Please select Project Category</option>
+	  	</field>
+		</fieldset>
+	</fields>
+</metadata>
