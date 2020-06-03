@@ -26,8 +26,15 @@ class DonorforceViewCategoryProjects extends JViewLegacy
 	{
 		// Assign data to the view
 		$this->items = $this->get('Items');
- 		$this->state = $this->get('state');
+ 	$this->state = $this->get('state');
 		$this->pagination	= $this->get('Pagination');
+		
+		if(!empty($this->items)){
+			$project_model = JModelLegacy::getInstance('Projects', 'DonorforceModel');
+			foreach( $this->items as &$project){
+				$project->total_raised =  $project_model->getTotalRaised($project->project_id);
+			}
+		}
 		
 		// Check for errors.
 		if (count($errors = $this->get('Errors'))) 
